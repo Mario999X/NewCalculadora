@@ -29,7 +29,6 @@ public class Controller {
         if (((Button)e.getSource()).getText().equals("=")) {
             model.setNumero2(Float.parseFloat(espacioNumero.getText()));
             espacioNumero.setText(String.valueOf(model.calcular()));
-            System.out.println(espacioNumero.getText());
         }else{
             model.setNumero1(Float.parseFloat(espacioNumero.getText()));
             model.setOperador(((Button) e.getSource()).getText());

@@ -20,17 +20,6 @@ public class Model {
         this.operador = operador;
     }
 
-    public float getNumero1() {
-        return numero1;
-    }
-
-    public float getNumero2() {
-        return numero2;
-    }
-
-    public String getOperador() {
-        return operador;
-    }
 
     public float calcular (){
         switch (operador){
